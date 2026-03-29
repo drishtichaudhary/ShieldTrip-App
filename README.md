@@ -20,6 +20,10 @@ Originally conceptualized during **SIH 2025**, the project focuses on enhancing 
 * 📁 Screens & Assets: `/assets/screens`
 
 ---
+## 💬 Communication
+Join our Discord server to collaborate and discuss:
+👉 [Join ShieldTrip Community](https://discord.gg/Qz5ykUpmyY)
+---
 
 ## 🎯 What We’re Looking For
 

@@ -30,6 +30,11 @@ Join our Discord server to collaborate and discuss:
 ### 🔧 Improve Core Screens (HIGH PRIORITY)
 * Redesign **Home Screen** for better clarity, hierarchy, and usability  
 * Improve **Settings Screen** with better structure, spacing, and visual grouping  
+* Redesign **Place Details Screen** (location-based screen opened from Home)
+  - Improve layout hierarchy (map vs content balance)
+  - Make safety score more intuitive and visually clear
+  - Enhance reviews section readability
+  - Add clear call-to-actions (directions, save, report, etc.)
 * Ensure a clean, modern, and intuitive interface
 
 ### ✨ Enhance Existing Screens

@@ -53,8 +53,8 @@ Join our Discord server to collaborate and discuss:
 
 ### 🧩 Add New Screens
 * Emergency Contact Setup ⭐ (high priority)
-* Trip History  
-* Safety Insights Dashboard
+* Trip History (priority)
+* Safety Insights Dashboard (advanced/optional)
 
 ### ⚡ Improve UX Flow
 * Better onboarding experience  

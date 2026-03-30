@@ -37,6 +37,15 @@ Join our Discord server to collaborate and discuss:
   - Add clear call-to-actions (directions, save, report, etc.)
 * Ensure a clean, modern, and intuitive interface
 
+### 📚 Build Design Documentation (HIGH PRIORITY)
+* Create **proper Figma-based documentation** inside the design file  
+* Document components, typography, color system, and spacing  
+* Define user flows and interaction patterns  
+* Add annotations explaining design decisions  
+* Organize pages for developer handoff  
+
+> ⚠️ Note: This is **not README/docs folder documentation** — we are specifically looking for **well-structured documentation inside Figma itself**, similar to real-world product design systems.
+
 ### ✨ Enhance Existing Screens
 * Improve UI consistency across screens  
 * Refine layouts, spacing, and typography  
@@ -57,14 +66,10 @@ Join our Discord server to collaborate and discuss:
 * Smooth transitions  
 * Feedback interactions  
 
-### 📚 Build Design Documentation (HIGH PRIORITY)
-* Create **proper Figma-based documentation** inside the design file  
-* Document components, typography, color system, and spacing  
-* Define user flows and interaction patterns  
-* Add annotations explaining design decisions  
-* Organize pages for developer handoff  
-
-> ⚠️ Note: This is **not README/docs folder documentation** — we are specifically looking for **well-structured documentation inside Figma itself**, similar to real-world product design systems.
+> **💡 Open Contributions Welcome**
+> Contributors are encouraged to suggest **new improvements, features, or screens** beyond the listed tasks.  
+> You can share your ideas in the **Discord channel** or comment under the designated **“Open Suggestions” GitHub issue**.  
+> Constructive discussions and innovative ideas are highly encouraged!
 
 ---
 

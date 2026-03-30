@@ -21,7 +21,7 @@ Below are some areas where you can contribute.
 
 ---
 
-## 🧩 New Screens (Optional)
+## 🧩 New Screens
 
 - Emergency Contact Setup ⭐
 - Trip History

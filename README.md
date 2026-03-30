@@ -103,7 +103,7 @@ Join our Discord server to collaborate and discuss:
 2. Pick a task from `/contributions/tasks.md`  
 3. Improve or create screens / documentation  
 4. Submit your work (Figma / images)  
-
+## Please don't forget to update in the discord server about the contribution you've made 😊
 ---
 
 ## 💡 Note

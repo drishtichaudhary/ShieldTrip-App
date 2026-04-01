@@ -46,15 +46,16 @@ Join our Discord server to collaborate and discuss:
 
 > ⚠️ Note: This is **not README/docs folder documentation** — we are specifically looking for **well-structured documentation inside Figma itself**, similar to real-world product design systems.
 
-### ✨ Enhance Existing Screens
-* Improve UI consistency across screens  
-* Refine layouts, spacing, and typography  
-* Improve accessibility and usability
-
 ### 🧩 Add New Screens
 * Emergency Contact Setup ⭐ (high priority)
 * Trip History (priority)
 * Safety Insights Dashboard (advanced/optional)
+* Splash / Loading Screen (simple, beginner-friendly)
+
+### ✨ Enhance Existing Screens
+* Improve UI consistency across screens  
+* Refine layouts, spacing, and typography  
+* Improve accessibility and usability
 
 ### ⚡ Improve UX Flow
 * Better onboarding experience  

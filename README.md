@@ -231,6 +231,9 @@ This is a **flexible and collaborative project**. Even small contributions are a
 * Ask questions if unsure
 * Be consistent and clean in design
 
+> This project is intended for collaborative learning and contribution.  
+Please do not reuse designs without proper attribution.
+
 ---
 
 ### Need Help?

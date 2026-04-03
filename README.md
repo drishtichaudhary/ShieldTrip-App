@@ -201,7 +201,7 @@ This project is designed for **travelers, students, and individuals navigating u
 
 👉 Join Discussions here: https://github.com/drishtichaudhary/ShieldTrip-App/discussions  
 
-> Please use Discussions for communication instead of external platforms to keep everything organized and accessible.
+> Please use Discussions or the official Discord channel for communication instead of any other platforms to keep everything organized and accessible.
 
 ---
 

@@ -179,6 +179,19 @@ This project is designed for **travelers, students, and individuals navigating u
 4. Start designing in Figma
 5. Submit your work
 
+### 🎨 Figma Contribution Workflow
+
+- The main Figma file is **view-only** to maintain design consistency  
+- Contributors should **duplicate the file** before making any changes  
+
+#### Steps:
+1. Open the Figma link  
+2. Click **Duplicate** (top right)  
+3. Make your changes in your own copy  
+4. Share your Figma link AND screenshots in the issue  
+
+> ⚠️ Do not edit the original file directly
+
 ---
 
 ### Communication

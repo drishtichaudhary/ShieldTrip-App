@@ -1,246 +1,123 @@
-# ShieldTrip 🚀 – Smart Travel Safety App
+# ShieldTrip — Smart travel-safety app 🚀
+
+Short technical description: A design-first prototype and documented project for a travel-safety mobile app focused on location-aware safety insights, alerts, and emergency features (design and documentation artifacts only).
+
+## Overview
+ShieldTrip addresses the need for clearer, context-aware safety information while travelling, especially in unfamiliar or higher-risk areas. Intended users include travellers, students, and individuals who want accessible safety guidance — for example: quick situational safety indicators on a map, place-level safety details, and an emergency-contacts interface.
+
+## Motivation
+People make route and location decisions under uncertainty; ShieldTrip's premise is that timely, location-aware safety cues (visualized on a map or surfaced in a place-details view), paired with low-friction emergency contact actions and alerts, can improve situational awareness and speed of response.
+
+## Project status
+- Evidence in this repository: design assets (Figma reference and exported screen images), contribution tasks, and project documentation (README, contributions/tasks.md).
+- What is implemented in the repository: UI design artifacts and documentation only. There is no runnable application code, backend, API, or deployed service in this repository.
+- What is not implemented here (but noted in the project plan): a Flutter / Web frontend, data collection or safety scoring backend, authentication, or production deployment.
+
+
+## Current design artifacts (what is present in the repo)
+The repo contains a Figma link and exported UI screens (PNG). The visible screen exports include (files under assets/screens):
+- opening-screen.png, home.png, map.png, place_details.png
+- emergency-contacts.png, notifications.png, profile.png, settings.png
+- login.png, sign-up.png, language-choice.png
+- tourist-id-generated.png, tourist-id-details.png
+- custom-location.png, ShieldTrip Logo files
+
+These images represent visual designs and flows (home, map/risk visualization, place details, emergency contacts, login/signup, profile/settings). Treat these as design prototypes — they do not contain interactive or executable app code.
+
+## Technical / Design architecture (repository view)
+This repository is organized around design artifacts and contributor-facing documentation. Key modules and their roles:
+
+```
+README.md                         - Project overview and contribution notes
+figma                             - Small file containing the canonical Figma URL
+assets/                           - Exported design assets
+  screens/                        - PNG exports of UI screens and logos
+contributions/                    - Contribution tasks and onboarding (tasks.md)
+```
+
+How it fits together: the Figma workspace (linked from the repo) contains the source UI designs; exported PNGs in assets/screens document the current visual state. The contributions/tasks.md file provides a curated list of design and UI tasks for contributors.
+
+## Technology stack
+Implemented (in-repo evidence):
+- Design: Figma (canonical design file linked in repo)
+- Static assets: PNG images (exported screens and logo)
+- Documentation: Markdown (README.md, contributions/tasks.md)
+- Collaboration: GitHub Issues and Discussions (project links provided)
+
+Planned (explicitly referenced, not present as code here):
+- Frontend: Flutter / Web (planned in repository README but no source code present)
+- Any backend services, data pipelines, or models (no evidence present in this repo)
+
+## Repository structure (annotated)
+
+```
+README.md                      # This file — rewritten for research-quality presentation
+figma                          # Plain file that contains the Figma canonical link
+assets/
+  screens/                     # PNG exports of UI screens and logos (design artifacts)
+contributions/
+  tasks.md                     # Task list and contributor onboarding notes
+```
+
+## Contribution & maintenance workflow
+- Issues: feature requests and implementation tasks should be tracked via GitHub Issues: https://github.com/drishtichaudhary/ShieldTrip-App/issues
+- Discussions: idea-level conversations, design questions, and coordination should use GitHub Discussions: https://github.com/drishtichaudhary/ShieldTrip-App/discussions
+- Design work process (documented in repository): duplicate the main Figma file before editing (the Figma file is view-only); share a link to your working copy and screenshots on the relevant Issue when submitting work.
+- Task selection: contributors pick an issue or a task from contributions/tasks.md and link their work to that issue/Discussion thread.
+- Reviews: design contributions should include screenshots and a short explanation of changes (what, why, and where in Figma). Maintain visual consistency with the existing design system (see Design System section).
+
+## Design system & documentation (in-repo standards)
+The repository explicitly documents these design expectations:
+- Typography: use Poppins font (not enforced by code in this repo; a design guideline)
+- Maintain consistent spacing, visual hierarchy, and component consistency across screens
+- Figma workflow: annotate screens in Figma, add documentation pages, and include any design decisions in the Figma file or issue thread
+
+The repository currently holds exported images and a reference to the Figma file where the canonical design and component definitions are expected to live.
+
+## Roadmap (Planned / Proposed features — not implemented in this repo)
+- Emergency contact setup & management: improved add/edit flows, clearer distinction between personal contacts and authorities.
+- Trip history screen: display of past trips and routes (data-backed feature).
+- Safety insights dashboard: aggregated trends and visualizations of safety metrics.
+- Splash / loading screen with branding and optional animation.
+- UI improvements: reduce clutter and refine layout for Home, Settings, and Place Details screens.
+- Add in-repo Figma documentation pages (typography, color, components).
+
+All roadmap items above are proposals recorded in repository documentation; they are not implemented as runnable code here.
+
+## Getting started (for contributors and reviewers)
+1. Review the canonical Figma file (repository points to the file below).
+2. Inspect exported screens in assets/screens to understand current visual state.
+3. Read contributions/tasks.md for suggested tasks and priorities.
+4. Open or search existing Issues and Discussions to avoid duplicate work.
+5. Duplicate the Figma file before editing; attach screenshots and a link to your working Figma file when posting progress to an Issue or Discussion.
+
+Minimum deliverables for a design contribution:
+- A short issue or Discussion linking the work and describing the goal
+- Screenshots (exported PNGs) or a shared Figma link to the contributor's copy
+- Short changelog notes explaining visual changes and rationale
+
+## Contribution guidelines (expectations)
+- Keep designs consistent with the documented system (Poppins font, spacing, hierarchy).
+- Describe changes clearly in Issues or Discussions; prefer small, reviewable increments.
+- Credit and link to the duplicated Figma file used for edits.
+- Tests/code: there are no application tests in this repository. If code is added in the future, follow the repository's Issue workflow and provide a clear README update describing how to run and test new components.
+
+## Project links
+- Repository: https://github.com/drishtichaudhary/ShieldTrip-App
+- Issues: https://github.com/drishtichaudhary/ShieldTrip-App/issues
+- Discussions: https://github.com/drishtichaudhary/ShieldTrip-App/discussions
+- Figma (canonical design): https://www.figma.com/design/qD4ygHXOrWyuc1jwsc6yVD/ShieldTrip-App
+- Contribution tasks: https://github.com/drishtichaudhary/ShieldTrip-App/blob/main/contributions/tasks.md
+- Assets (exported screens): https://github.com/drishtichaudhary/ShieldTrip-App/tree/main/assets/screens
+
+## Limitations / current scope
+- This repository contains design artifacts and contributor documentation; it does not contain a runnable application, backend services, or production deployment.
+- Any references in earlier documentation to features such as "location-based safety insights" or "alerts/SOS functionality" refer to design prototypes rather than implemented, data-driven features.
+
+## Maintainers
+- The repository owner (GitHub user: drishtichaudhary) is the contact point for project coordination. Use Issues or Discussions for questions and proposals.
+
 
 ---
 
-## 1. Project Overview
-
-### Description
-
-**ShieldTrip** is a smart travel safety application that helps users navigate securely using real-time alerts, safe route suggestions, and location-based risk visualization.
-
-Originally conceptualized during **SIH 2025**, the project focuses on enhancing user safety while traveling—especially in unfamiliar or high-risk areas.
-
----
-
-### Tech Stack
-
-* **Design:** Figma
-* **Frontend (Planned):** Flutter / Web
-* **Other Tools:** GitHub, Discord
-
----
-
-### Current Features
-
-ShieldTrip currently includes:
-
-* Home screen with location-based safety insights
-* Map integration with risk visualization
-* Place Details screen with safety score and reviews
-* Emergency Contacts feature (basic version)
-* Alerts and SOS functionality
-* Multiple UI screens and user flows (partially implemented)
-
----
-
-### Target Users
-
-This project is designed for **travelers, students, and individuals navigating unfamiliar areas**, who want to prioritize safety during their journeys.
-
----
-
-## 2. Architecture / Key Modules
-
-### Module Overview
-
-| Module/Component  | Location                  | Purpose                                                    |
-| ----------------- | ------------------------- | ---------------------------------------------------------- |
-| **Screens**       | `/assets/screens`         | Contains key UI screens for reference and improvement      |
-| **Figma Design**  | `/figma/figma-link.txt`   | Main design workspace where all UI and documentation exist |
-| **Contributions** | `/contributions/tasks.md` | Lists tasks and contribution areas                         |
-
----
-
-## 3. New Feature Ideas
-
-### Feature 1: Emergency Contact Setup & Management
-
-**Problem it solves:** Users need a reliable way to manage emergency contacts quickly during critical situations.
-
-* **Difficulty Level:** Beginner–Intermediate
-* **Focus Areas:** UI clarity, quick actions, edit/add flows
-
----
-
-### Feature 2: Trip History Screen
-
-**Problem it solves:** Users cannot track or revisit their previous trips and routes.
-
-* **Difficulty Level:** Intermediate
-* **Focus Areas:** Data display, clean layout, usability
-
----
-
-### Feature 3: Safety Insights Dashboard
-
-**Problem it solves:** Users lack a consolidated view of safety trends and insights.
-
-* **Difficulty Level:** Advanced
-* **Focus Areas:** Data visualization, UX clarity
-
----
-
-### Feature 4: Splash / Loading Screen
-
-**Problem it solves:** App lacks a proper entry experience during launch.
-
-* **Difficulty Level:** Beginner
-* **Focus Areas:** Branding, smooth transitions
-
----
-
-## 4. Feature Implementation Pipeline
-
-### Pipeline for UI/UX Improvements
-
-1. Review existing Figma screens
-2. Identify usability and design issues
-3. Redesign screens following guidelines
-4. Maintain consistency with design system
-5. Add annotations and documentation in Figma
-
----
-
-### Pipeline for New Screens
-
-1. Understand feature purpose
-2. Sketch basic layout
-3. Design high-fidelity UI in Figma
-4. Ensure consistency with existing screens
-5. Add annotations for clarity
-
----
-
-## 5. Good First Issues
-
-### Issue 1: Redesign Home Screen UI
-- Improve layout hierarchy and clarity  
-- Reduce clutter and improve focus areas  
-
----
-
-### Issue 2: Improve Settings Screen UI
-- Fix spacing and alignment  
-- Improve visual grouping  
-
----
-
-### Issue 3: Improve Place Details Screen
-- Better hierarchy and layout  
-- Improve safety score visualization  
-
----
-
-### Issue 4: Improve Emergency Contacts Feature
-- Improve UI clarity and structure  
-- Add/edit contact flow (if missing)  
-- Better distinction between contacts and authorities  
-
----
-
-### Issue 5: Design Splash / Loading Screen
-- Simple centered layout with logo  
-- Optional loading animation  
-
----
-
-### Issue 6: Add Figma Documentation
-- Typography system  
-- Color system  
-- Component definitions  
-
----
-
-### Issue 7: Design Trip History Screen
-- Display past trips clearly  
-- Clean and scannable layout  
-
----
-
-### Issue 8: Design Safety Insights Dashboard (Advanced)
-- Visualize safety trends  
-- Keep UI simple and meaningful  
-
----
-
-### Issue 9: Open Suggestions & New Ideas
-- Propose new features, screens, or improvements  
-- Discuss ideas via GitHub Discussions or Issues
-
----
-
-## 6. Contributor Notes
-
-### Getting Started
-
-1. Explore the Figma design
-2. Check GitHub Discussions for context  
-3. Pick an issue or task
-4. Start designing in Figma
-5. Submit your work
-
-### 🎨 Figma Contribution Workflow
-
-- The main Figma file is **view-only** to maintain design consistency  
-- Contributors should **duplicate the file** before making any changes  
-
-#### Steps:
-1. Open the Figma link  
-2. Click **Duplicate** (top right)  
-3. Make your changes in your own copy  
-4. Share your Figma link AND screenshots in the issue  
-
-> ⚠️ Do not edit the original file directly
-
----
-
-### Communication
-
-- 💡 GitHub Discussions → Ideas, suggestions, and general discussions  
-- 🛠 GitHub Issues → Tasks, features, and work tracking  (https://github.com/drishtichaudhary/ShieldTrip-App/issues)
-
-👉 Join Discussions here: https://github.com/drishtichaudhary/ShieldTrip-App/discussions  
-
-> Please use Discussions or the official Discord channel for communication instead of any other platforms to keep everything organized and accessible.
-
----
-
-### Design Guidelines
-
-* Use **Poppins font only**
-* Maintain consistent spacing and hierarchy
-* Keep UI clean and minimal
-* Respect existing design system
-
----
-
-### Contribution Philosophy
-
-This is a **flexible and collaborative project**. Even small contributions are appreciated ✨
-
-* Build on existing work instead of replacing it
-* Maintain UI consistency
-* Focus on thoughtful improvements
-
----
-
-### Tips for Contributors
-
-* Start with small tasks
-* Follow existing design patterns
-* Ask questions if unsure
-* Be consistent and clean in design
-
-> This project is intended for collaborative learning and contribution.  
-Please do not reuse designs without proper attribution.
-
----
-
-### Need Help?
-
-- Ask your questions in **GitHub Discussions**
-- Comment on relevant **GitHub Issues**
-
----
-
-**Happy Contributing! 💙**
+(End of rewritten README)

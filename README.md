@@ -13,7 +13,6 @@ People make route and location decisions under uncertainty; ShieldTrip's premise
 - What is implemented in the repository: UI design artifacts and documentation only. There is no runnable application code, backend, API, or deployed service in this repository.
 - What is not implemented here (but noted in the project plan): a Flutter / Web frontend, data collection or safety scoring backend, authentication, or production deployment.
 
-
 ## Current design artifacts (what is present in the repo)
 The repo contains a Figma link and exported UI screens (PNG). The visible screen exports include (files under assets/screens):
 - opening-screen.png, home.png, map.png, place_details.png
@@ -116,8 +115,3 @@ Minimum deliverables for a design contribution:
 
 ## Maintainers
 - The repository owner (GitHub user: drishtichaudhary) is the contact point for project coordination. Use Issues or Discussions for questions and proposals.
-
-
----
-
-(End of rewritten README)
